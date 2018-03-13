@@ -23,9 +23,7 @@ public class AccesLocal {
     public AccesLocal(Context contexte){
         accesBD = new MySQLiteOpenHelper(contexte,nomBase,null,versionBase);
     }
-
-
-
+    
     /**
      * ajout d'une tache dans la BD
      * @param tache
