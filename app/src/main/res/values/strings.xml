@@ -4,4 +4,6 @@
     <string name="action_delete">supp</string>
     <string name="action_settings">Option</string>
     <string name="action_add">Ajout</string>
+    <string name="sample_show_log">show log</string>
+
 </resources>
