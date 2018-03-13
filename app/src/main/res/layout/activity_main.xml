@@ -16,23 +16,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.473" />
 
-    <android.support.design.widget.AppBaarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme"@style/AppTheme.AppBarOverlay">
-
-    <android.support.v7.widget.Toolbar
-        android:layout_width="76dp"
-        android:layout_height="match_parent"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/AppTheme.PopupOverlay"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
-    </android.support.v7.widget.Toolbar>
-
-    include:layout
-
-
-
-
 </android.support.constraint.ConstraintLayout>
