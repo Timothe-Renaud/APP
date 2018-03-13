@@ -10,6 +10,7 @@ import java.util.Date;
 
 /**
  * Created by kakas on 13/03/2018.
+ *
  */
 
 public class AccesLocal {
@@ -23,7 +24,7 @@ public class AccesLocal {
     public AccesLocal(Context contexte){
         accesBD = new MySQLiteOpenHelper(contexte,nomBase,null,versionBase);
     }
-    
+
     /**
      * ajout d'une tache dans la BD
      * @param tache
@@ -36,8 +37,8 @@ public class AccesLocal {
     }
 
     /**
-     * Récupératio du dernier profil de la BD
-     * @return
+     * Récupératio des taches de la BD
+     * @return tache
      */
     public Tache recupTache(){
         bd = accesBD.getReadableDatabase();
