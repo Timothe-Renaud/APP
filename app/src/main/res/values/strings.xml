@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Productivité</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_delete">supp</string>
+    <string name="action_settings">Option</string>
+    <string name="action_add">Ajout</string>
 </resources>
